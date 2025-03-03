@@ -41,7 +41,7 @@ st.markdown(
     """
 )
 
-NOTEBOOK_PATH = "gym_analyze.ipynb"
+NOTEBOOK_PATH = "animal-shelter.ipynb"
 
 def execute_notebook(notebook_path):
     """Executes a Jupyter Notebook and returns only plots (no tables)."""
