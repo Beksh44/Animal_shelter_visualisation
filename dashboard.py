@@ -74,7 +74,7 @@ def execute_notebook(notebook_path):
 
 extracted_plots = execute_notebook(NOTEBOOK_PATH)
 
-st.subheader("📈 Fitness Data Visualizations")
+st.subheader("📈 Animal-Shelter Data Visualizations")
 
 if extracted_plots:
     # Only one set of columns, no doubling of plots
